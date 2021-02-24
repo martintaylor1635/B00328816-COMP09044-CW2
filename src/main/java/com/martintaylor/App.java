@@ -8,6 +8,8 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+import com.martintaylor.models.*;
+
 /**
  * JavaFX App
  */
@@ -19,8 +21,7 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
 
         scene = new Scene(loadFXML("primary"), 640, 480);
-
-        stage.setTitle("JavaFX Application Example");
+        stage.setTitle("Application");
         stage.setScene(scene);
         stage.show();
 
