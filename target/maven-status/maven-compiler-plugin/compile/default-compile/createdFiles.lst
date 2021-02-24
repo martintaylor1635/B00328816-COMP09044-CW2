@@ -1,4 +1,5 @@
-com\martintaylor\PrimaryController.class
-com\martintaylor\App.class
 module-info.class
 com\martintaylor\SecondaryController.class
+com\martintaylor\controllers\AuthenticationController.class
+com\martintaylor\PrimaryController.class
+com\martintaylor\App.class
